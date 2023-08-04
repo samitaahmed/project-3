@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.env
+
+# PyCharm
+.idea/
+
+# Virtual environment
+venv/
+env/
+
+# Compiled Python files
+*.pyc
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IPython
+.profile
+.pyhistory
+
+# Pytest
+pytest_cache/
+
+# Coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore poetry virtual environment
+.poetry/
+
+# Ignore credentials file
+backend/credentials.py
+Mortality Visualization/credentials.py
+Vaccination Visualisation/credentials.py
+Merging work/credentials.py
+choropleth/credentials.py 
+frontend/credentials.py
+
+
+# Exclude DS_Store file
+**/.DS_Store
+backend/static/js/credentials.py
+.DS_Store
